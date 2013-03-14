@@ -35,7 +35,7 @@ fi
 # copy tools files
 TARGETDIR=/usr/local/appscale-tools
 mkdir -p $TARGETDIR
-cp -rv bin lib templates $TARGETDIR || exit 1
+cp -rv bin appscale templates $TARGETDIR || exit 1
 cp -v LICENSE README $TARGETDIR || exit 1
 
 # install scripts
