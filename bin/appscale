@@ -12,7 +12,7 @@ from termcolor import cprint
 
 # AppScale import, the library that we're wrapping this executable
 # around
-lib = os.path.dirname(__file__) + os.sep + ".." + os.sep + "lib"
+lib = os.path.dirname(__file__) + os.sep + ".." + os.sep + "appscale"
 sys.path.append(lib)
 from appscale import AppScale
 from custom_exceptions import AppScaleException

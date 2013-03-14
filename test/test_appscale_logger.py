@@ -16,7 +16,7 @@ from flexmock import flexmock
 
 
 # AppScale import, the library that we're testing here
-lib = os.path.dirname(__file__) + os.sep + ".." + os.sep + "lib"
+lib = os.path.dirname(__file__) + os.sep + ".." + os.sep + "appscale"
 sys.path.append(lib)
 from appscale_logger import AppScaleLogger
 from parse_args import ParseArgs

@@ -19,7 +19,7 @@ from flexmock import flexmock
 
 
 # AppScale import, the library that we're testing here
-lib = os.path.dirname(__file__) + os.sep + ".." + os.sep + "lib"
+lib = os.path.dirname(__file__) + os.sep + ".." + os.sep + "appscale"
 sys.path.append(lib)
 from agents.ec2_agent import EC2Agent
 from appscale import AppScale
